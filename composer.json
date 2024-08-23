@@ -1,0 +1,25 @@
+{
+    "name": "linups/linups-paypal",
+    "description": "PayPal API cover",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Linups"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Linups\\LinupsPaypal\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Linups\\LinupsPaypal\\LinupsPaypalServiceProvider"
+            ]
+        }
+    }
+}
