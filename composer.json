@@ -21,5 +21,6 @@
                 "Linups\\LinupsPaypal\\LinupsPaypalServiceProvider"
             ]
         }
-    }
+    },
+    "version": "0.0.1"
 }
